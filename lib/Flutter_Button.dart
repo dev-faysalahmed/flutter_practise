@@ -88,9 +88,10 @@ class FButton extends StatelessWidget {
                 },
                 child: Text("Faysal Ahmed", style: TextStyle(color: Colors.teal, fontWeight: FontWeight.bold, fontSize: 30),)),
             InkWell(
-                onTap: (){
+                onDoubleTap: (){
                   print("Inkwell Taped.");
                 },
+
                 child: Text("Faysal Ahmed", style: TextStyle(color: Colors.tealAccent, fontWeight: FontWeight.bold, fontSize: 30),)),
 
         
